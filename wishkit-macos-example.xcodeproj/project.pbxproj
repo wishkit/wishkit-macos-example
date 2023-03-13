@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09C68E1029B46EB3003D8EAA /* wishkit_macos_exampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C68E0F29B46EB3003D8EAA /* wishkit_macos_exampleApp.swift */; };
+		09C68E1229B46EB3003D8EAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C68E1129B46EB3003D8EAA /* ContentView.swift */; };
+		09C68E1429B46EB5003D8EAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09C68E1329B46EB5003D8EAA /* Assets.xcassets */; };
+		09C68E1729B46EB5003D8EAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09C68E1629B46EB5003D8EAA /* Preview Assets.xcassets */; };
+		09C68E2029B46ECF003D8EAA /* WishKit in Frameworks */ = {isa = PBXBuildFile; productRef = 09C68E1F29B46ECF003D8EAA /* WishKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09A9760029BF82C300FAF297 /* wishkit-ios */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "wishkit-ios"; path = "../../../projects/wishkit-ios"; sourceTree = "<group>"; };
+		09C68E0C29B46EB3003D8EAA /* wishkit-macos-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wishkit-macos-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09C68E0F29B46EB3003D8EAA /* wishkit_macos_exampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wishkit_macos_exampleApp.swift; sourceTree = "<group>"; };
+		09C68E1129B46EB3003D8EAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		09C68E1329B46EB5003D8EAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09C68E1629B46EB5003D8EAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		09C68E1829B46EB5003D8EAA /* wishkit_macos_example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = wishkit_macos_example.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09C68E0929B46EB3003D8EAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C68E2029B46ECF003D8EAA /* WishKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09C68E0329B46EB3003D8EAA = {
+			isa = PBXGroup;
+			children = (
+				09C68E0E29B46EB3003D8EAA /* wishkit-macos-example */,
+				09C68E0D29B46EB3003D8EAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09C68E0D29B46EB3003D8EAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09C68E0C29B46EB3003D8EAA /* wishkit-macos-example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09C68E0E29B46EB3003D8EAA /* wishkit-macos-example */ = {
+			isa = PBXGroup;
+			children = (
+				09A9760029BF82C300FAF297 /* wishkit-ios */,
+				09C68E0F29B46EB3003D8EAA /* wishkit_macos_exampleApp.swift */,
+				09C68E1129B46EB3003D8EAA /* ContentView.swift */,
+				09C68E1329B46EB5003D8EAA /* Assets.xcassets */,
+				09C68E1829B46EB5003D8EAA /* wishkit_macos_example.entitlements */,
+				09C68E1529B46EB5003D8EAA /* Preview Content */,
+			);
+			path = "wishkit-macos-example";
+			sourceTree = "<group>";
+		};
+		09C68E1529B46EB5003D8EAA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				09C68E1629B46EB5003D8EAA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09C68E0B29B46EB3003D8EAA /* wishkit-macos-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09C68E1B29B46EB5003D8EAA /* Build configuration list for PBXNativeTarget "wishkit-macos-example" */;
+			buildPhases = (
+				09C68E0829B46EB3003D8EAA /* Sources */,
+				09C68E0929B46EB3003D8EAA /* Frameworks */,
+				09C68E0A29B46EB3003D8EAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "wishkit-macos-example";
+			packageProductDependencies = (
+				09C68E1F29B46ECF003D8EAA /* WishKit */,
+			);
+			productName = "wishkit-macos-example";
+			productReference = 09C68E0C29B46EB3003D8EAA /* wishkit-macos-example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09C68E0429B46EB3003D8EAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					09C68E0B29B46EB3003D8EAA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 09C68E0729B46EB3003D8EAA /* Build configuration list for PBXProject "wishkit-macos-example" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09C68E0329B46EB3003D8EAA;
+			packageReferences = (
+				09C68E1E29B46ECF003D8EAA /* XCRemoteSwiftPackageReference "wishkit-ios" */,
+			);
+			productRefGroup = 09C68E0D29B46EB3003D8EAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09C68E0B29B46EB3003D8EAA /* wishkit-macos-example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09C68E0A29B46EB3003D8EAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C68E1729B46EB5003D8EAA /* Preview Assets.xcassets in Resources */,
+				09C68E1429B46EB5003D8EAA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09C68E0829B46EB3003D8EAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C68E1229B46EB3003D8EAA /* ContentView.swift in Sources */,
+				09C68E1029B46EB3003D8EAA /* wishkit_macos_exampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		09C68E1929B46EB5003D8EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09C68E1A29B46EB5003D8EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		09C68E1C29B46EB5003D8EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "wishkit-macos-example/wishkit_macos_example.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"wishkit-macos-example/Preview Content\"";
+				DEVELOPMENT_TEAM = JLJHFZ4FU8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.wishkit.wishkit-macos-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		09C68E1D29B46EB5003D8EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "wishkit-macos-example/wishkit_macos_example.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"wishkit-macos-example/Preview Content\"";
+				DEVELOPMENT_TEAM = JLJHFZ4FU8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.wishkit.wishkit-macos-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09C68E0729B46EB3003D8EAA /* Build configuration list for PBXProject "wishkit-macos-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C68E1929B46EB5003D8EAA /* Debug */,
+				09C68E1A29B46EB5003D8EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09C68E1B29B46EB5003D8EAA /* Build configuration list for PBXNativeTarget "wishkit-macos-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C68E1C29B46EB5003D8EAA /* Debug */,
+				09C68E1D29B46EB5003D8EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		09C68E1E29B46ECF003D8EAA /* XCRemoteSwiftPackageReference "wishkit-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wishkit/wishkit-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		09C68E1F29B46ECF003D8EAA /* WishKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09C68E1E29B46ECF003D8EAA /* XCRemoteSwiftPackageReference "wishkit-ios" */;
+			productName = WishKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 09C68E0429B46EB3003D8EAA /* Project object */;
+}
