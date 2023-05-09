@@ -15,7 +15,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		09A9760029BF82C300FAF297 /* wishkit-ios */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "wishkit-ios"; path = "../../../projects/wishkit-ios"; sourceTree = "<group>"; };
 		09C68E0C29B46EB3003D8EAA /* wishkit-macos-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wishkit-macos-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09C68E0F29B46EB3003D8EAA /* wishkit_macos_exampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wishkit_macos_exampleApp.swift; sourceTree = "<group>"; };
 		09C68E1129B46EB3003D8EAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,7 +54,6 @@
 		09C68E0E29B46EB3003D8EAA /* wishkit-macos-example */ = {
 			isa = PBXGroup;
 			children = (
-				09A9760029BF82C300FAF297 /* wishkit-ios */,
 				09C68E0F29B46EB3003D8EAA /* wishkit_macos_exampleApp.swift */,
 				09C68E1129B46EB3003D8EAA /* ContentView.swift */,
 				09C68E1329B46EB5003D8EAA /* Assets.xcassets */,
@@ -361,7 +359,7 @@
 			repositoryURL = "https://github.com/wishkit/wishkit-ios";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
+				minimumVersion = 3.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
